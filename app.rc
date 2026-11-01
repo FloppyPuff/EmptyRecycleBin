@@ -1,0 +1,28 @@
+1 ICON "app.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "清空回收站"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "EmptyRecycleBin"
+            VALUE "OriginalFilename", "EmptyRecycleBin.exe"
+            VALUE "ProductName", "清空回收站"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
